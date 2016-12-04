@@ -1,0 +1,42 @@
+
+<div class="col-md-6 col-mdoffset-3" ng-controller="registerController">
+	<h1>Register</h1>
+	
+	<!-- Registration Form -->
+	<form name="formRegister" role="formRegister">
+		<!-- First Name -->
+		<div class="form-group">
+			<label for="username">First Name</label>
+			<input type="text" name="firstname" id="firstname" class="form-control" required /> 
+			<span class="help-block">First name is required</span>
+		</div>
+		<!-- Last Name -->
+		<div class="form-group">
+			<label for="username">Last Name</label>
+			<input type="text" name="lastname" id="lastname" class="form-control" required /> 
+			<span class="help-block">Last name is required</span>
+		</div>
+		<!-- Email -->
+		<div class="form-group">
+			<label for="username">Email</label>
+			<input type="email" name="email" id="email" class="form-control" required /> 
+			<span class="help-block">Email is required</span>
+			<span class="help-block">Email is not valid</span>
+		</div>
+		<!-- Password -->
+		<div class="form-group">
+			<label for="password">Password</label>
+			<input type="password" name="password" id="password" class="form-control" required /> 
+			<span class="help-block">Password is required</span>
+		</div>
+
+		<!-- Buttons -->
+		<div class="form-group">
+			<button type="submit" class="btn btn-primary">Register</button>
+			<a href="#/login" class="btn btn-link">Login</a>
+		</div>
+	</form>
+
+	<!-- Info field -->
+	<div class="alert alert-info toggle"></div>
+</div>

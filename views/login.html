@@ -1,0 +1,29 @@
+<div class="col-md-6 col-mdoffset-3" ng-controller="loginController">
+	<h1>Login</h1>
+	
+	<!-- Login Form -->
+	<form name="formLogin">
+		<!-- Email -->
+		<div class="form-group">
+			<label for="username">Username</label>
+			<input type="text" name="email" id="email" class="form-control" required /> 
+			<span class="help-block">Email name is required</span>
+		</div>
+		<!-- Password -->
+		<div class="form-group">
+			<label for="username">Password</label>
+			<input type="password" name="password" id="password" class="form-control" required /> 
+			<span class="help-block">password is required</span>
+		</div>
+		
+		<!-- Buttons -->
+		<div class="form-group">
+			<button type="submit" class="btn btn-primary">Login</button>
+			<a href="#/register" class="btn btn-link">Register</a>
+		</div>
+	</form>
+
+	<!-- Info field -->
+	<div class="alert alert-info toggle"></div>
+
+</div>

@@ -1,0 +1,34 @@
+[
+	{
+		"id":"1001",
+		"name":"Ibe Palikukja",
+		"model":"Top5",
+		"email":"ibe@ibe.com",
+		"status":"positive",
+		"purchasedate":"2016-11-blabla"
+	},
+	{
+		"id":"1002",
+		"name":"Pero Drtalo",
+		"model":"Burgija",
+		"email":"pero@pero.com",
+		"status":"positive",
+		"purchasedate":"2016-11-blabla"
+	},
+	{
+		"id":"1003",
+		"name":"Tinka Katinka",
+		"model":"Manekenka",
+		"email":"tinka@tinka.com",
+		"status":"positive",
+		"purchasedate":"2016-11-blabla"
+	},
+	{
+		"id":"1004",
+		"name":"Kozle Bozle",
+		"model":"Top5",
+		"email":"kozlak@kozlak.com",
+		"status":"negative",
+		"purchasedate":"2016-11-blabla"
+	}
+]
